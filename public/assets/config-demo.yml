@@ -100,7 +100,7 @@ services:
         keywords: "demo"
         url: "#"
         target: "_blank" 
-      - name: "Weather"
+      - name: "Weathers"
         location: "Lyon"
         apikey: "xxxxxxxxxxxx" # insert your own API key here. Request one from https://openweathermap.org/api.
         units: "metric"
