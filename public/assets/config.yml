@@ -149,7 +149,7 @@ services:
         tag: "app"
         url: "https://dash.cloudflare.com/login"
       - name: "Pi-hole"
-        url: "http://192.168.100.117/admin"
+        url: "http://localhost/admin"
         tag: "smarthome"
         logo: "assets/tools/pihole.png"
         subtitle: "" # optional, if no subtitle is defined, PiHole statistics will be shown
