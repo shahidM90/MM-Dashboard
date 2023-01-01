@@ -151,7 +151,7 @@ services:
       - name: "Pi-hole"
         url: "http://192.168.100.117/admin"
         tag: "smarthome"
-        logo: "assets/tools/icons/pihole.png"
+        logo: "assets/tools/pihole.png"
         subtitle: "" # optional, if no subtitle is defined, PiHole statistics will be shown
         type: "PiHole"
 
