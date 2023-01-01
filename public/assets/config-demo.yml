@@ -93,7 +93,7 @@ services:
   - name: "Tools"
     icon: "fa-solid fa-screwdriver-wrench"
     items:
-      - name: "Example item"
+      - name: "Example items"
         logo: "assets/tools/sample.png"
         subtitle: "This another example"
         tag: "app"
