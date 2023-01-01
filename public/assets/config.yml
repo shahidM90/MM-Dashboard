@@ -5,11 +5,8 @@
 title: "MM dashboard"
 subtitle: "Dashboard"
 logo: "logo.png"
-# icon: "fas fa-skull-crossbones" # Optional icon
-
 header: true
 footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> // Fork me on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>' # set false if you want to hide it.
-
 # Optional theme customization
 theme: default
 colors:
@@ -39,7 +36,6 @@ colors:
     card-shadow: rgba(0, 0, 0, 0.4)
     link: "#3273dc"
     link-hover: "#ffdd57"
-
 # Optional message
 message:
   #url: https://b4bz.io
@@ -47,7 +43,6 @@ message:
   title: "Demo !"
   icon: "fa fa-grin"
   content: "This is a dummy homepage demo. <br /> Find more information on <a href='https://github.com/bastienwirtz/homer'>github.com/bastienwirtz/homer</a>"
-
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
@@ -63,7 +58,6 @@ links:
   #- name: "another page!"
   #  icon: "fas fa-file-alt"
   #  url: "#additional-page" 
-
 # Services
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
