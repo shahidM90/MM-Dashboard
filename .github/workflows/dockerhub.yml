@@ -26,7 +26,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           username: ${{shahidmohamed}}
-          password: ${{tycfes-1buwba-jewseG}}
+          password: ${{dckr_pat_nd5_-aaYb-dorp6zr9R4_jOPMwU}}
       - 
         name: Set tag name
         run: |
