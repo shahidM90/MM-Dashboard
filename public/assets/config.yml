@@ -50,7 +50,7 @@ colors:
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
-  - name: "Github"
+  - name: "Github Page"
     icon: "fab fa-github"
     url: "https://github.com/tanner4137"
     target: "_blank" # optional html a tag target attribute
