@@ -70,11 +70,11 @@ services:
   - name: "Server Monitoring"
     icon: "fas fa-cloud"
     items:
-      - name: "Elmer - iDrac"
-        logo: "assets/tools/sample.png"
-        subtitle: "Lights Out Monitoring"
+      - name: "Transmission"
+        logo: "assets/tools/transmission.png"
+        subtitle: "Downloading Torrewnts"
         tag: "app"
-        url: "https://10.10.30.13/login.html/"
+        url: "http://localhost:9091"
         target: "_blank" # optional html a tag target attribute
       - name: "Daffy - iLO"
         logo: "assets/tools/sample.png"
