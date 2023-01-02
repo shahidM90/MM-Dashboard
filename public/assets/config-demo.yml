@@ -84,7 +84,7 @@ services:
         warning_value: 50
         danger_value: 80
         api_token: "xxxxxxxxxxxx"
-      - name: "An awesome apps"
+      - name: "An awesome apps list"
         logo: "assets/tools/sample.png"
         subtitle: "Bookmark example"
         tag: "app"
