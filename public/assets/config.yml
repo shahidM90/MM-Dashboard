@@ -71,7 +71,7 @@ services:
     icon: "fas fa-cloud"
     items:
       - name: "Transmission"
-        logo: "assets/tools/transmission.png"
+        logo: "assets/tools/Transmission.png"
         subtitle: "Downloading Torrewnts"
         tag: "app"
         url: "http://localhost:9091"
