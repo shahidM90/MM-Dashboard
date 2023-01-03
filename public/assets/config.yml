@@ -68,11 +68,11 @@ links:
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
   - name: "Server Monitoring"
-    icon: "fas fa-cloud"
+    icon: "fa-solid fa-network-wired"
     items:
       - name: "Transmission"
         logo: "assets/tools/Transmission.png"
-        subtitle: "Downloading Torrewnts"
+        subtitle: "Torrent Downloader"
         tag: "app"
         url: "http://localhost:9091"
         target: "_blank" # optional html a tag target attribute
