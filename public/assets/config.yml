@@ -86,8 +86,8 @@ services:
         subtitle: "SMART data at a glance"
         tag: "app"
         url: "https://10.10.0.102/"
-  - name: "Virtualization"
-    icon: "fas fa-cloud"
+  - name: "Media Server"
+    icon: "fa-solid fa-photo-film"
     items:
       - name: "vCenter"
         logo: "assets/tools/sample.png"
