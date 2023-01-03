@@ -52,16 +52,13 @@ colors:
 links:
   - name: "Github Page"
     icon: "fab fa-github"
-    url: "https://github.com/tanner4137"
+    url: "https://github.com/shahidM90/MM-Dashboard"
     target: "_blank" # optional html a tag target attribute
-  - name: "Wiki"
-    icon: "fas fa-book"
-    url: "https://www.wikipedia.org/"
   # this will link to a second homer page that will load config from additionnal-page.yml and keep default config values as in config.yml file
   # see url field and assets/additionnal-page.yml.dist used in this example:
-  - name: "Blog"
-    icon: "fas fa-file-alt"
-    url: "https://tcude.net" 
+ # - name: "Blog"
+  #  icon: "fas fa-file-alt"
+   # url: "https://tcude.net" 
 
 # Services
 # First level array represent a group.
@@ -105,9 +102,15 @@ services:
         subtitle: "ESXi Management Page"
         tag: "app"
         url: "https://daffy.tcudelocal.net"
-  - name: "Media Server"
-    icon: "fas fa-cloud"
+  - name: "Network"
+    icon: "fa-duotone fa-router"
     items:
+      - name: "Pi-hole"
+        url: "http://localhost/admin"
+        tag: "smarthome"
+        logo: "assets/tools/pihole.png"
+        subtitle: "" # optional, if no subtitle is defined, PiHole statistics will be shown
+        type: "PiHole"
       - name: "Plex"
         logo: "assets/tools/sample.png"
         subtitle: "Plex Media Server"
@@ -148,10 +151,4 @@ services:
         subtitle: "DNS and WAF"
         tag: "app"
         url: "https://dash.cloudflare.com/login"
-      - name: "Pi-hole"
-        url: "http://localhost/admin"
-        tag: "smarthome"
-        logo: "assets/tools/pihole.png"
-        subtitle: "" # optional, if no subtitle is defined, PiHole statistics will be shown
-        type: "PiHole"
 
